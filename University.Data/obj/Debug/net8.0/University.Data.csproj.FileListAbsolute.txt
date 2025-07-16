@@ -1,0 +1,14 @@
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\bin\Debug\net8.0\University.Data.deps.json
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\bin\Debug\net8.0\University.Data.runtimeconfig.json
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\bin\Debug\net8.0\University.Data.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\bin\Debug\net8.0\University.Data.pdb
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\University.Data.csproj.AssemblyReference.cache
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\University.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\University.Data.AssemblyInfoInputs.cache
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\University.Data.AssemblyInfo.cs
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\University.Data.csproj.CoreCompileInputs.cache
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\University.Data.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\refint\University.Data.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\University.Data.pdb
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\University.Data.genruntimeconfig.cache
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\ref\University.Data.dll
