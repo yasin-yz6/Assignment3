@@ -12,3 +12,4 @@ C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Deb
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\University.Data.pdb
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\University.Data.genruntimeconfig.cache
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\ref\University.Data.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Data\obj\Debug\net8.0\University.Data.sourcelink.json

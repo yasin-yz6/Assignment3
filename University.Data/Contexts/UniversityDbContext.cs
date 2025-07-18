@@ -7,6 +7,7 @@ namespace University.Data.Contexts
     public class UniversityDbContext : DbContext
     {
         public DbSet<Student> Students { get; set; }
+        public DbSet<Course> Courses { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
