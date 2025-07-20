@@ -152,7 +152,6 @@ C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debu
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
@@ -173,3 +172,15 @@ C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debu
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

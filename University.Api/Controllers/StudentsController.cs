@@ -1,4 +1,5 @@
 ﻿using AutoWrapper.Wrappers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using University.Api.Filters;
@@ -8,6 +9,7 @@ using University.Core.Services;
 
 namespace University.Api.Controllers
 {
+    [Authorize]//since you put the attribute the system will need authorization everytime you want to do something
     [Route("api/[controller]")]
     [ApiController]
     [TypeFilter(typeof(ApiExceptionFilter))]

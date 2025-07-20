@@ -1,0 +1,438 @@
+2025-07-19 22:15:51.275 +03:00 [INF] User profile is available. Using 'C:\Users\ymbaz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-19 22:15:51.653 +03:00 [INF] Now listening on: https://localhost:7121
+2025-07-19 22:15:51.653 +03:00 [INF] Now listening on: http://localhost:5047
+2025-07-19 22:15:51.748 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-19 22:15:51.749 +03:00 [INF] Hosting environment: Development
+2025-07-19 22:15:51.749 +03:00 [INF] Content root path: C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api
+2025-07-19 22:15:53.105 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:15:53.105 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:15:53.142 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 45.263ms
+2025-07-19 22:15:53.244 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.6708ms
+2025-07-19 22:15:53.296 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:15:53.389 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.6597ms
+2025-07-19 22:16:06.254 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 22:16:06.374 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:16:06.406 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 22:16:06.412 +03:00 [ERR] Unhandled exception occurred
+System.InvalidOperationException: Unable to resolve service for type 'University.Api.Helpers.IJwtTokenHelper' while attempting to activate 'University.Api.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method475(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-19 22:16:06.464 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 22:16:06.484 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 75.4573ms
+2025-07-19 22:16:06.485 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:16:06.485 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 500 null application/json; charset=utf-8 231.4079ms
+2025-07-19 22:18:26.142 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - null null
+2025-07-19 22:18:26.296 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - 200 null text/html;charset=utf-8 154.5117ms
+2025-07-19 22:18:26.363 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:18:26.363 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:18:26.365 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.4813ms
+2025-07-19 22:18:26.378 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.7218ms
+2025-07-19 22:18:26.550 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:18:26.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.0265ms
+2025-07-19 22:18:28.747 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - null null
+2025-07-19 22:18:28.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - 200 null text/html;charset=utf-8 5.3624ms
+2025-07-19 22:18:28.787 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:18:28.787 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:18:28.788 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.6944ms
+2025-07-19 22:18:28.805 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.9054ms
+2025-07-19 22:18:28.835 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:18:28.852 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.241ms
+2025-07-19 22:18:33.785 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 22:18:33.790 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:18:33.793 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 22:18:33.794 +03:00 [ERR] Unhandled exception occurred
+System.InvalidOperationException: Unable to resolve service for type 'University.Api.Helpers.IJwtTokenHelper' while attempting to activate 'University.Api.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method484(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-19 22:18:33.794 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 22:18:33.796 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 2.9821ms
+2025-07-19 22:18:33.796 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:18:33.797 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 500 null application/json; charset=utf-8 12.1332ms
+2025-07-19 22:18:55.124 +03:00 [INF] User profile is available. Using 'C:\Users\ymbaz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-19 22:18:55.501 +03:00 [INF] Now listening on: https://localhost:7121
+2025-07-19 22:18:55.502 +03:00 [INF] Now listening on: http://localhost:5047
+2025-07-19 22:18:55.584 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-19 22:18:55.585 +03:00 [INF] Hosting environment: Development
+2025-07-19 22:18:55.585 +03:00 [INF] Content root path: C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api
+2025-07-19 22:18:56.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:18:56.728 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:18:56.813 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 101.872ms
+2025-07-19 22:18:56.932 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 222.9996ms
+2025-07-19 22:18:57.077 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:18:57.168 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.2093ms
+2025-07-19 22:19:06.540 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 22:19:06.665 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:19:06.696 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 22:19:06.994 +03:00 [ERR] Unhandled exception occurred
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha512', the key size must be greater than: '512' bits, key has '224' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at University.Api.Helpers.JwtTokenHelper.GenerateToken(UserDTO user) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Helpers\JwtTokenHelper.cs:line 43
+   at University.Api.Controllers.AuthController.Login(LoginForm form) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Controllers\AuthController.cs:line 29
+   at lambda_method472(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-19 22:19:07.063 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 22:19:07.081 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 382.5947ms
+2025-07-19 22:19:07.081 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:19:07.082 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 500 null application/json; charset=utf-8 541.8806ms
+2025-07-19 22:20:02.431 +03:00 [INF] User profile is available. Using 'C:\Users\ymbaz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-19 22:20:02.710 +03:00 [INF] Now listening on: https://localhost:7121
+2025-07-19 22:20:02.711 +03:00 [INF] Now listening on: http://localhost:5047
+2025-07-19 22:20:02.857 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-19 22:20:02.858 +03:00 [INF] Hosting environment: Development
+2025-07-19 22:20:02.858 +03:00 [INF] Content root path: C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api
+2025-07-19 22:20:03.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:20:03.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:20:03.294 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 62.8592ms
+2025-07-19 22:20:03.357 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 127.3971ms
+2025-07-19 22:20:03.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:20:03.490 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.3897ms
+2025-07-19 22:20:08.714 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 22:20:08.812 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:20:08.837 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 22:20:08.959 +03:00 [ERR] Unhandled exception occurred
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha256', the key size must be greater than: '256' bits, key has '224' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at University.Api.Helpers.JwtTokenHelper.GenerateToken(UserDTO user) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Helpers\JwtTokenHelper.cs:line 43
+   at University.Api.Controllers.AuthController.Login(LoginForm form) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Controllers\AuthController.cs:line 29
+   at lambda_method472(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-19 22:20:08.992 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 22:20:09.007 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 166.8812ms
+2025-07-19 22:20:09.007 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:20:09.008 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 500 null application/json; charset=utf-8 293.812ms
+2025-07-19 22:22:57.573 +03:00 [INF] User profile is available. Using 'C:\Users\ymbaz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-19 22:22:57.875 +03:00 [INF] Now listening on: https://localhost:7121
+2025-07-19 22:22:57.876 +03:00 [INF] Now listening on: http://localhost:5047
+2025-07-19 22:22:57.999 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-19 22:22:57.999 +03:00 [INF] Hosting environment: Development
+2025-07-19 22:22:57.999 +03:00 [INF] Content root path: C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api
+2025-07-19 22:22:58.678 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:22:58.678 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:22:59.225 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 561.5492ms
+2025-07-19 22:22:59.277 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 613.3805ms
+2025-07-19 22:22:59.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:22:59.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.1087ms
+2025-07-19 22:23:07.402 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 22:23:07.546 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:23:07.577 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 22:23:07.763 +03:00 [ERR] Unhandled exception occurred
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha512', the key size must be greater than: '512' bits, key has '224' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at University.Api.Helpers.JwtTokenHelper.GenerateToken(UserDTO user) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Helpers\JwtTokenHelper.cs:line 43
+   at University.Api.Controllers.AuthController.Login(LoginForm form) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Controllers\AuthController.cs:line 33
+   at lambda_method472(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-19 22:23:07.836 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 22:23:07.860 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 280.4062ms
+2025-07-19 22:23:07.860 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:23:07.861 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 500 null application/json; charset=utf-8 459.4338ms
+2025-07-19 22:25:55.783 +03:00 [INF] User profile is available. Using 'C:\Users\ymbaz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-19 22:25:56.149 +03:00 [INF] Now listening on: https://localhost:7121
+2025-07-19 22:25:56.150 +03:00 [INF] Now listening on: http://localhost:5047
+2025-07-19 22:25:56.396 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-19 22:25:56.397 +03:00 [INF] Hosting environment: Development
+2025-07-19 22:25:56.397 +03:00 [INF] Content root path: C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api
+2025-07-19 22:25:57.285 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:25:57.285 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:25:57.785 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 509.2291ms
+2025-07-19 22:25:57.842 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 566.6961ms
+2025-07-19 22:25:57.920 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:25:57.996 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 76.3702ms
+2025-07-19 22:26:16.969 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 22:26:17.087 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:26:17.111 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 22:26:17.236 +03:00 [ERR] Unhandled exception occurred
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha512', the key size must be greater than: '512' bits, key has '192' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at University.Api.Helpers.JwtTokenHelper.GenerateToken(UserDTO user) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Helpers\JwtTokenHelper.cs:line 43
+   at University.Api.Controllers.AuthController.Login(LoginForm form) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Controllers\AuthController.cs:line 33
+   at lambda_method472(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-19 22:26:17.278 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 22:26:17.297 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 182.5664ms
+2025-07-19 22:26:17.297 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:26:17.297 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 500 null application/json; charset=utf-8 328.0386ms
+2025-07-19 22:26:45.705 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - null null
+2025-07-19 22:26:45.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - 200 null text/html;charset=utf-8 152.8058ms
+2025-07-19 22:26:45.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:26:45.897 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:26:45.899 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.796ms
+2025-07-19 22:26:45.920 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.6117ms
+2025-07-19 22:26:45.949 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:26:45.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.1332ms
+2025-07-19 22:26:51.965 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 22:26:51.967 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:26:51.967 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 22:26:51.997 +03:00 [ERR] Unhandled exception occurred
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha512', the key size must be greater than: '512' bits, key has '192' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at University.Api.Helpers.JwtTokenHelper.GenerateToken(UserDTO user) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Helpers\JwtTokenHelper.cs:line 43
+   at University.Api.Controllers.AuthController.Login(LoginForm form) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Controllers\AuthController.cs:line 33
+   at lambda_method472(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-19 22:26:51.997 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 22:26:51.998 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 30.356ms
+2025-07-19 22:26:51.998 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:26:51.998 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 500 null application/json; charset=utf-8 33.556ms
+2025-07-19 22:27:46.747 +03:00 [INF] User profile is available. Using 'C:\Users\ymbaz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-19 22:27:47.007 +03:00 [INF] Now listening on: https://localhost:7121
+2025-07-19 22:27:47.007 +03:00 [INF] Now listening on: http://localhost:5047
+2025-07-19 22:27:47.086 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-19 22:27:47.087 +03:00 [INF] Hosting environment: Development
+2025-07-19 22:27:47.088 +03:00 [INF] Content root path: C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api
+2025-07-19 22:27:47.474 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:27:47.474 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:27:47.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 52.3383ms
+2025-07-19 22:27:47.568 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 105.5113ms
+2025-07-19 22:27:47.614 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:27:47.682 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.8941ms
+2025-07-19 22:27:53.780 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 22:27:53.912 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:27:53.954 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 22:27:54.107 +03:00 [ERR] Unhandled exception occurred
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha512', the key size must be greater than: '512' bits, key has '400' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at University.Api.Helpers.JwtTokenHelper.GenerateToken(UserDTO user) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Helpers\JwtTokenHelper.cs:line 43
+   at University.Api.Controllers.AuthController.Login(LoginForm form) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Controllers\AuthController.cs:line 33
+   at lambda_method472(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-19 22:27:54.150 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 22:27:54.171 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 212.5153ms
+2025-07-19 22:27:54.171 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:27:54.171 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 500 null application/json; charset=utf-8 392.08ms
+2025-07-19 22:29:49.121 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - null null
+2025-07-19 22:29:49.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - 200 null text/html;charset=utf-8 203.0492ms
+2025-07-19 22:29:49.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:29:49.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:29:49.369 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 4.2779ms
+2025-07-19 22:29:49.420 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.9299ms
+2025-07-19 22:29:49.459 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:29:49.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.3629ms
+2025-07-19 22:29:58.595 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 22:29:58.601 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:29:58.602 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 22:29:58.684 +03:00 [ERR] Unhandled exception occurred
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha512', the key size must be greater than: '512' bits, key has '400' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at University.Api.Helpers.JwtTokenHelper.GenerateToken(UserDTO user) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Helpers\JwtTokenHelper.cs:line 43
+   at University.Api.Controllers.AuthController.Login(LoginForm form) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Controllers\AuthController.cs:line 33
+   at lambda_method472(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-19 22:29:58.686 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 22:29:58.686 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 84.1999ms
+2025-07-19 22:29:58.686 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:29:58.686 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 500 null application/json; charset=utf-8 91.8399ms
+2025-07-19 22:30:01.859 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/index.html - null null
+2025-07-19 22:30:01.868 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/index.html - 200 null text/html;charset=utf-8 8.7828ms
+2025-07-19 22:30:01.916 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:30:01.916 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:30:01.917 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1.4924ms
+2025-07-19 22:30:01.934 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.0008ms
+2025-07-19 22:30:01.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:30:01.994 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.6438ms
+2025-07-19 22:30:10.126 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 22:30:10.127 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:30:10.127 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 22:30:10.162 +03:00 [ERR] Unhandled exception occurred
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'http://www.w3.org/2001/04/xmldsig-more#hmac-sha512', the key size must be greater than: '512' bits, key has '400' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType, IDictionary`2 additionalHeaderClaims, IDictionary`2 additionalInnerHeaderClaims)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at University.Api.Helpers.JwtTokenHelper.GenerateToken(UserDTO user) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Helpers\JwtTokenHelper.cs:line 43
+   at University.Api.Controllers.AuthController.Login(LoginForm form) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Controllers\AuthController.cs:line 33
+   at lambda_method472(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-19 22:30:10.165 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 22:30:10.165 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 38.0919ms
+2025-07-19 22:30:10.165 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:30:10.165 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 500 null application/json; charset=utf-8 40.002ms
+2025-07-19 22:30:39.678 +03:00 [INF] User profile is available. Using 'C:\Users\ymbaz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-19 22:30:40.027 +03:00 [INF] Now listening on: https://localhost:7121
+2025-07-19 22:30:40.028 +03:00 [INF] Now listening on: http://localhost:5047
+2025-07-19 22:30:40.183 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-19 22:30:40.184 +03:00 [INF] Hosting environment: Development
+2025-07-19 22:30:40.184 +03:00 [INF] Content root path: C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api
+2025-07-19 22:30:40.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 22:30:40.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 22:30:40.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 60.3467ms
+2025-07-19 22:30:40.940 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 143.0818ms
+2025-07-19 22:30:40.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 22:30:41.090 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.3479ms
+2025-07-19 22:30:51.616 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 22:30:51.747 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:30:51.775 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 22:30:51.886 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 22:30:51.906 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 125.9733ms
+2025-07-19 22:30:51.906 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 22:30:51.906 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 200 null application/json; charset=utf-8 289.8633ms
+2025-07-19 23:18:00.468 +03:00 [INF] User profile is available. Using 'C:\Users\ymbaz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-19 23:18:00.850 +03:00 [INF] Now listening on: https://localhost:7121
+2025-07-19 23:18:00.850 +03:00 [INF] Now listening on: http://localhost:5047
+2025-07-19 23:18:01.087 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-19 23:18:01.088 +03:00 [INF] Hosting environment: Development
+2025-07-19 23:18:01.088 +03:00 [INF] Content root path: C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api
+2025-07-19 23:18:02.362 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-19 23:18:02.362 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 23:18:02.406 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 59.6443ms
+2025-07-19 23:18:02.534 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 189.529ms
+2025-07-19 23:18:02.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-19 23:18:02.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.7551ms
+2025-07-19 23:18:14.536 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Auth/Login - application/json 64
+2025-07-19 23:18:14.794 +03:00 [INF] Executing endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 23:18:14.841 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[AutoWrapper.Wrappers.ApiResponse] Login(University.Core.Forms.LoginForm) on controller University.Api.Controllers.AuthController (University.Api).
+2025-07-19 23:18:14.952 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 23:18:14.972 +03:00 [INF] Executed action University.Api.Controllers.AuthController.Login (University.Api) in 127.2ms
+2025-07-19 23:18:14.973 +03:00 [INF] Executed endpoint 'University.Api.Controllers.AuthController.Login (University.Api)'
+2025-07-19 23:18:14.973 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Auth/Login - 200 null application/json; charset=utf-8 437.9299ms
+2025-07-19 23:18:41.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/api/Courses - null null
+2025-07-19 23:18:41.773 +03:00 [INF] Executing endpoint 'University.Api.Controllers.CoursesController.GetAll (University.Api)'
+2025-07-19 23:18:41.775 +03:00 [INF] Route matched with {action = "GetAll", controller = "Courses"}. Executing controller action with signature AutoWrapper.Wrappers.ApiResponse GetAll() on controller University.Api.Controllers.CoursesController (University.Api).
+2025-07-19 23:18:43.428 +03:00 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CourseName], [c].[TeacherName]
+FROM [Courses] AS [c]
+2025-07-19 23:18:43.442 +03:00 [INF] All courses listed
+2025-07-19 23:18:43.443 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-19 23:18:43.445 +03:00 [INF] Executed action University.Api.Controllers.CoursesController.GetAll (University.Api) in 1669.6754ms
+2025-07-19 23:18:43.446 +03:00 [INF] Executed endpoint 'University.Api.Controllers.CoursesController.GetAll (University.Api)'
+2025-07-19 23:18:43.457 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/api/Courses - 200 null application/json; charset=utf-8 1748.1207ms
+2025-07-19 23:18:55.097 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/api/Courses - null null
+2025-07-19 23:18:55.107 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-19 23:18:55.110 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-19 23:18:55.111 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/api/Courses - 401 0 null 14.8705ms
