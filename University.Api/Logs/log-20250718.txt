@@ -1,0 +1,99 @@
+2025-07-18 15:05:58.102 +03:00 [INF] Now listening on: https://localhost:7121
+2025-07-18 15:05:58.153 +03:00 [INF] Now listening on: http://localhost:5047
+2025-07-18 15:05:58.447 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 15:05:58.448 +03:00 [INF] Hosting environment: Development
+2025-07-18 15:05:58.448 +03:00 [INF] Content root path: C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api
+2025-07-18 15:05:59.604 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 15:05:59.604 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-18 15:05:59.757 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 167.8077ms
+2025-07-18 15:05:59.833 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 246.2987ms
+2025-07-18 15:05:59.936 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-18 15:06:00.024 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.101ms
+2025-07-18 15:06:09.633 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Students - application/json 47
+2025-07-18 15:06:09.668 +03:00 [INF] Executing endpoint 'University.Api.Controllers.StudentsController.Create (University.Api)'
+2025-07-18 15:06:09.703 +03:00 [INF] Route matched with {action = "Create", controller = "Students"}. Executing controller action with signature AutoWrapper.Wrappers.ApiResponse Create(University.Core.Forms.CreateStudentForm) on controller University.Api.Controllers.StudentsController (University.Api).
+2025-07-18 15:06:09.911 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 15:06:09.948 +03:00 [INF] Executed action University.Api.Controllers.StudentsController.Create (University.Api) in 240.9018ms
+2025-07-18 15:06:09.948 +03:00 [INF] Executed endpoint 'University.Api.Controllers.StudentsController.Create (University.Api)'
+2025-07-18 15:06:09.951 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Students - 400 null application/problem+json; charset=utf-8 318.0569ms
+2025-07-18 15:06:16.539 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/api/Students - null null
+2025-07-18 15:06:16.541 +03:00 [INF] Executing endpoint 'University.Api.Controllers.StudentsController.GetAll (University.Api)'
+2025-07-18 15:06:16.546 +03:00 [INF] Route matched with {action = "GetAll", controller = "Students"}. Executing controller action with signature AutoWrapper.Wrappers.ApiResponse GetAll() on controller University.Api.Controllers.StudentsController (University.Api).
+2025-07-18 15:06:18.054 +03:00 [INF] All students listed
+2025-07-18 15:06:18.055 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-18 15:06:18.067 +03:00 [INF] Executed action University.Api.Controllers.StudentsController.GetAll (University.Api) in 1521.2457ms
+2025-07-18 15:06:18.067 +03:00 [INF] Executed endpoint 'University.Api.Controllers.StudentsController.GetAll (University.Api)'
+2025-07-18 15:06:18.080 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/api/Students - 200 null application/json; charset=utf-8 1541.8173ms
+2025-07-18 15:06:44.647 +03:00 [INF] Now listening on: https://localhost:7121
+2025-07-18 15:06:44.683 +03:00 [INF] Now listening on: http://localhost:5047
+2025-07-18 15:06:44.807 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 15:06:44.808 +03:00 [INF] Hosting environment: Development
+2025-07-18 15:06:44.808 +03:00 [INF] Content root path: C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api
+2025-07-18 15:06:45.253 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 15:06:45.253 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-18 15:06:45.290 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 50.2017ms
+2025-07-18 15:06:45.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 114.8433ms
+2025-07-18 15:06:45.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-18 15:06:45.456 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.9536ms
+2025-07-18 15:06:51.638 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/api/Courses/5 - null null
+2025-07-18 15:06:51.661 +03:00 [INF] Executing endpoint 'University.Api.Controllers.CoursesController.GetById (University.Api)'
+2025-07-18 15:06:51.689 +03:00 [INF] Route matched with {action = "GetById", controller = "Courses"}. Executing controller action with signature AutoWrapper.Wrappers.ApiResponse GetById(Int32) on controller University.Api.Controllers.CoursesController (University.Api).
+2025-07-18 15:06:56.604 +03:00 [ERR] Item not found
+University.Core.Exceptions.NotFoundException: Unable to find course
+   at University.Core.Services.CourseService.GetById(Int32 id) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Core\Services\CourseService.cs:line 63
+   at University.Api.Controllers.CoursesController.GetById(Int32 id) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Controllers\CoursesController.cs:line 28
+   at lambda_method390(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-18 15:06:56.663 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-18 15:06:56.686 +03:00 [INF] Executed action University.Api.Controllers.CoursesController.GetById (University.Api) in 4991.3627ms
+2025-07-18 15:06:56.686 +03:00 [INF] Executed endpoint 'University.Api.Controllers.CoursesController.GetById (University.Api)'
+2025-07-18 15:06:56.697 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/api/Courses/5 - 404 null application/json; charset=utf-8 5059.2782ms
+2025-07-18 15:09:23.516 +03:00 [INF] Now listening on: https://localhost:7121
+2025-07-18 15:09:23.555 +03:00 [INF] Now listening on: http://localhost:5047
+2025-07-18 15:09:23.889 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 15:09:23.891 +03:00 [INF] Hosting environment: Development
+2025-07-18 15:09:23.891 +03:00 [INF] Content root path: C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api
+2025-07-18 15:09:25.056 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_vs/browserLink - null null
+2025-07-18 15:09:25.056 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 15:09:25.142 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 102.5747ms
+2025-07-18 15:09:25.244 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/_vs/browserLink - 200 null text/javascript; charset=UTF-8 206.1322ms
+2025-07-18 15:09:25.309 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - null null
+2025-07-18 15:09:25.459 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7121/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 150.6621ms
+2025-07-18 15:09:34.493 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7121/api/Courses/54 - null null
+2025-07-18 15:09:34.523 +03:00 [INF] Executing endpoint 'University.Api.Controllers.CoursesController.Delete (University.Api)'
+2025-07-18 15:09:34.562 +03:00 [INF] Route matched with {action = "Delete", controller = "Courses"}. Executing controller action with signature AutoWrapper.Wrappers.ApiResponse Delete(Int32) on controller University.Api.Controllers.CoursesController (University.Api).
+2025-07-18 15:09:39.805 +03:00 [ERR] Item not found
+University.Core.Exceptions.NotFoundException: Unable to find Course
+   at University.Core.Services.CourseService.Delete(Int32 id) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Core\Services\CourseService.cs:line 42
+   at University.Api.Controllers.CoursesController.Delete(Int32 id) in C:\Users\ymbaz\OneDrive\Desktop\Code\C#\UniversitySystem\University.Api\Controllers\CoursesController.cs:line 71
+   at lambda_method390(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2025-07-18 15:09:39.884 +03:00 [INF] Executing ObjectResult, writing value of type 'AutoWrapper.Wrappers.ApiResponse'.
+2025-07-18 15:09:39.906 +03:00 [INF] Executed action University.Api.Controllers.CoursesController.Delete (University.Api) in 5338.6809ms
+2025-07-18 15:09:39.906 +03:00 [INF] Executed endpoint 'University.Api.Controllers.CoursesController.Delete (University.Api)'
+2025-07-18 15:09:39.918 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7121/api/Courses/54 - 404 null application/json; charset=utf-8 5425.1022ms
+2025-07-18 15:10:04.709 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7121/api/Courses - application/json 43
+2025-07-18 15:10:04.719 +03:00 [INF] Executing endpoint 'University.Api.Controllers.CoursesController.Create (University.Api)'
+2025-07-18 15:10:04.722 +03:00 [INF] Route matched with {action = "Create", controller = "Courses"}. Executing controller action with signature AutoWrapper.Wrappers.ApiResponse Create(University.Core.Forms.CreateCourseForm) on controller University.Api.Controllers.CoursesController (University.Api).
+2025-07-18 15:10:04.757 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 15:10:04.780 +03:00 [INF] Executed action University.Api.Controllers.CoursesController.Create (University.Api) in 57.8897ms
+2025-07-18 15:10:04.780 +03:00 [INF] Executed endpoint 'University.Api.Controllers.CoursesController.Create (University.Api)'
+2025-07-18 15:10:04.780 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7121/api/Courses - 400 null application/problem+json; charset=utf-8 71.6141ms

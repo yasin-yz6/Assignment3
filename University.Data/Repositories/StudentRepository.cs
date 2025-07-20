@@ -14,22 +14,18 @@ namespace University.Data.Repositories
 
         public void Add(Student student)
         {
-            if (student == null) throw new ArgumentNullException(nameof(student));
             _context.Add(student);
-            _context.SaveChanges();
-
         }
 
         public void Delete(Student student)
         {
-            if (student == null) throw new ArgumentNullException(nameof(student));
             _context.Remove(student);
-            _context.SaveChanges();
         }
 
         public List<Student> GetAll()
         {
-            return _context.Students.ToList();
+            var courses =  _context.Students.ToList();
+            return courses;
         }
 
         public Student GetById(int id)
@@ -44,9 +40,7 @@ namespace University.Data.Repositories
 
         public void Update(Student student)
         {
-            if (student == null) throw new ArgumentNullException(nameof(student));
             _context.Update(student);
-            _context.SaveChanges();
         }
     }
 
